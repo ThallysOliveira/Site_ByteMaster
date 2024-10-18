@@ -11,6 +11,10 @@ header {
     color: white;
     
 }
+.container a{
+    text-decoration: none;
+    color: inherit;
+}
 
 header,
 section h2,
@@ -24,8 +28,30 @@ body, input, textarea {
     font-family: "Roboto", sans-serif;
     
 }
-
-
+/*.home-page {
+    background-image: url(/images/1339189.png);
+}*/
+.titulo-inicio h1{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 79px;
+    
+}
+.services h2{
+    font-size: 35px;
+}
+.services p{
+    font-size: 25px;
+}
+.services h3 {
+    margin-top: 25px;
+}
+.imagem-servicos img {
+    width: 600px;
+    height: 400px;
+    margin-right: 38px;
+}
 
 header nav li{
     display: inline;
@@ -39,10 +65,20 @@ header nav li a{
     text-decoration: none;
 }
 
-.container {
+.container,
+.titulo-inicio,
+.services {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    
+}
+.titulo-inicio h1
+{
+    color: #182C61;
+}
+.titulo-inicio h2 {
+    font-size: 900px;
 }
 
 header .container,
@@ -67,6 +103,7 @@ section .container{
 }
 section {
     padding: 24px 0;
+    ;
 
 }
 
